@@ -1,0 +1,72 @@
+/* Color Custom */
+:root {
+  --warna-primer: #5176b5;
+  --warna-cokelat: #e4ba9e;
+  --warna-hijau: #e4ba9e;
+  --warna-sekunder: #cbdfeb;
+}
+
+.text-primary {
+  color: var(--warna-primer) !important;
+}
+
+.border-primer {
+  border-bottom: 3px solid var(--warna-primer);
+}
+
+a {
+  color: var(--warna-primer) !important;
+}
+
+.active {
+  font-weight: 600;
+}
+
+.bg-custom {
+  background-image: url("../img/wallpaper.jpg");
+  height: calc(100vh - 75px) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn {
+  border-radius: 100px !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.bg-sekunder {
+  background-color: var(--warna-sekunder);
+  color: var(--warna-primer);
+  border: 1px solid var(--warna-sekunder);
+}
+
+.card,
+.card-footer {
+  background-color: var(--warna-cokelat) !important;
+}
+
+.card-body {
+  max-width: 40rem;
+}
+
+.bg-white {
+  background-color: white !important;
+}
+
+.image-circle {
+  width: 8rem;
+  height: 8rem;
+  background-color: var(--warna-cokelat);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.btn-primer {
+  background-color: var(--warna-primer);
+  border-color: var(--warna-primer);
+}
